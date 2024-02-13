@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<K5project version="1.1">
+   <types>
+      <type name="BitField1" kind="BITFIELD" base="DINT" bits=",test,,,,ok">
+      </type>
+      <type name="EnumType1" kind="ENUM">
+      <enumval value="V0"/>
+      <enumval value="V1"/>
+      </type>
+      <type name="motor" kind="STRUCT" desc="">
+         <var name="speed" type="INT"/>
+         <var name="maximum_speed" type="INT"/>
+         <var name="on_off" type="BOOL"/>
+      </type>
+      <type name="StrLight" kind="STRUCT" desc="">
+         <var name="bCmd" type="BOOL"/>
+         <var name="bON" type="BOOL"/>
+      </type>
+   </types>
+</K5project>

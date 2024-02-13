@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<K5project version="1.1">
+   <programs>
+      <pou name="SFC_1" kind="program" period="1" phase="0" lge="SFC">
+         <vargroup name="SFC_1" kind="LOCAL">
+            <var name="iCount" type="DINT">
+         <varinfo type="desc" data="counting when active"/>
+            </var>
+            <var name="BRun" type="BOOL">
+         <varinfo type="desc" data="activation command"/>
+            </var>
+         </vargroup>
+<defines name="SFC_1"></defines>
+         <sourceSFC sx="1" sy="5">
+            <SFCstep kind="init" dx="0" dy="0" ref="1" name="GS1" next="GT1">
+               <SFCnote ref="1" dx="0" dy="0">inactive:
+nothing done
+               </SFCnote>
+            </SFCstep>
+            <SFCtrans dx="0" dy="1" ref="1" name="GT1" next="GS2">
+               <SFCnote ref="1" dx="0" dy="1">activate with bRun
+               </SFCnote>
+               <SFCcondition>
+                  <sourceLD>
+                     <LDrung dx="0" dy="0" sx="3" sy="1" label="">
+                        <LDcontact kind="D" symbol="BRun" dx="1" dy="0"/>
+                        <LDcoil kind="D" symbol="" dx="2" dy="0"/>
+                     </LDrung>
+                  </sourceLD>
+               </SFCcondition>
+            </SFCtrans>
+            <SFCstep kind="default" dx="0" dy="2" ref="2" name="GS2" next="GT2">
+               <SFCnote ref="2" dx="0" dy="2">Active:
+- run child program
+- increase counter
+               </SFCnote>
+               <SFCaction kind="default">
+                  <sourceSTIL>SFC_1_child (N);
+                  </sourceSTIL>
+               </SFCaction>
+               <SFCaction kind="N">
+                  <sourceFBD sxcell="16" sycell="16">
+                     <FBDbox id="2" order="0" dx="10" dy="1" sx="4" sy="3" nbi="2" nbo="1" style="0" kind="OP" type="+"/>
+                     <FBDvarbox id="3" order="0" dx="1" dy="2" sx="8" sy="1" symbol="iCount" style="0"/>
+                     <FBDvarbox id="5" order="0" dx="15" dy="2" sx="8" sy="1" symbol="iCount" style="0"/>
+                     <FBDvarbox id="4" order="0" dx="1" dy="3" sx="8" sy="1" symbol="1" style="0"/>
+                     <FBDline negate="0" idfrom="2" idto="5" pinfrom="0" pinto="0" cutx="50" cuty="50">
+                        <FBDlinepoint xcell="14" ycell="2" xincell="0" yincell="8"/>
+                        <FBDlinepoint xcell="14" ycell="2" xincell="8" yincell="8"/>
+                        <FBDlinepoint xcell="14" ycell="2" xincell="8" yincell="8"/>
+                        <FBDlinepoint xcell="15" ycell="2" xincell="1" yincell="8"/>
+                     </FBDline>
+                     <FBDline negate="0" idfrom="3" idto="2" pinfrom="0" pinto="0" cutx="50" cuty="50">
+                        <FBDlinepoint xcell="9" ycell="2" xincell="0" yincell="8"/>
+                        <FBDlinepoint xcell="9" ycell="2" xincell="7" yincell="8"/>
+                        <FBDlinepoint xcell="9" ycell="2" xincell="7" yincell="8"/>
+                        <FBDlinepoint xcell="10" ycell="2" xincell="1" yincell="8"/>
+                     </FBDline>
+                     <FBDline negate="0" idfrom="4" idto="2" pinfrom="0" pinto="1" cutx="50" cuty="50">
+                        <FBDlinepoint xcell="9" ycell="3" xincell="0" yincell="8"/>
+                        <FBDlinepoint xcell="9" ycell="3" xincell="8" yincell="8"/>
+                        <FBDlinepoint xcell="9" ycell="3" xincell="8" yincell="8"/>
+                        <FBDlinepoint xcell="10" ycell="3" xincell="1" yincell="8"/>
+                     </FBDline>
+                  </sourceFBD>
+               </SFCaction>
+            </SFCstep>
+            <SFCtrans dx="0" dy="3" ref="2" name="GT2" next="GS1">
+               <SFCnote ref="2" dx="0" dy="3">deactivate
+               </SFCnote>
+               <SFCcondition>
+                  <sourceLD>
+                     <LDrung dx="0" dy="0" sx="3" sy="1" label="">
+                        <LDcontact kind="I" symbol="BRun" dx="1" dy="0"/>
+                        <LDcoil kind="D" symbol="" dx="2" dy="0"/>
+                     </LDrung>
+                  </sourceLD>
+               </SFCcondition>
+            </SFCtrans>
+            <SFCjump dx="0" dy="4" ref="1" target="GS1"/>
+         </sourceSFC>
+      </pou>
+   </programs>
+</K5project>

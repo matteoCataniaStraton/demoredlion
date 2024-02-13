@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<K5project version="1.1">
+   <programs>
+      <pou name="SFC_1_child" kind="child" parent="SFC_1" lge="SFC">
+         <vargroup name="SFC_1_child" kind="LOCAL">
+            <var name="x1" type="BOOL">
+         <varinfo type="desc" data="sequence output"/>
+            </var>
+            <var name="x2" type="BOOL">
+         <varinfo type="desc" data="sequence output"/>
+            </var>
+            <var name="x4" type="BOOL">
+         <varinfo type="desc" data="sequence output"/>
+            </var>
+            <var name="x3" type="BOOL">
+         <varinfo type="desc" data="sequence output"/>
+            </var>
+         </vargroup>
+<defines name="SFC_1_child"></defines>
+         <sourceSFC sx="1" sy="9">
+            <SFCstep kind="init" dx="0" dy="0" ref="1" name="GS1" next="GT1">
+               <SFCnote ref="1" dx="0" dy="0">b1 is ON
+               </SFCnote>
+               <SFCaction kind="default">
+                  <sourceSTIL>x1;
+                  </sourceSTIL>
+               </SFCaction>
+            </SFCstep>
+            <SFCtrans dx="0" dy="1" ref="1" name="GT1" next="GS2">
+               <SFCnote ref="1" dx="0" dy="1">wait 1 second
+               </SFCnote>
+               <SFCcondition>
+                  <sourceSTIL>GS1.T &gt; t#1s
+                  </sourceSTIL>
+               </SFCcondition>
+            </SFCtrans>
+            <SFCstep kind="default" dx="0" dy="2" ref="2" name="GS2" next="GT2">
+               <SFCnote ref="2" dx="0" dy="2">b2 is ON
+               </SFCnote>
+               <SFCaction kind="default">
+                  <sourceSTIL>x2 (N);
+                  </sourceSTIL>
+               </SFCaction>
+            </SFCstep>
+            <SFCtrans dx="0" dy="3" ref="2" name="GT2" next="GS3">
+               <SFCnote ref="2" dx="0" dy="3">wait 1 second
+               </SFCnote>
+               <SFCcondition>
+                  <sourceSTIL>GS2.T &gt; t#1s;
+                  </sourceSTIL>
+               </SFCcondition>
+            </SFCtrans>
+            <SFCstep kind="default" dx="0" dy="4" ref="3" name="GS3" next="GT3">
+               <SFCnote ref="3" dx="0" dy="4">b3 is ON
+               </SFCnote>
+               <SFCaction kind="default">
+                  <sourceSTIL>x3 (N);
+                  </sourceSTIL>
+               </SFCaction>
+            </SFCstep>
+            <SFCtrans dx="0" dy="5" ref="3" name="GT3" next="GS4">
+               <SFCnote ref="3" dx="0" dy="5">wait 1 second
+               </SFCnote>
+               <SFCcondition>
+                  <sourceSTIL>GS3.T &gt; t#1s;
+                  </sourceSTIL>
+               </SFCcondition>
+            </SFCtrans>
+            <SFCstep kind="default" dx="0" dy="6" ref="4" name="GS4" next="GT4">
+               <SFCnote ref="4" dx="0" dy="6">b4 is ON
+               </SFCnote>
+               <SFCaction kind="default">
+                  <sourceSTIL>x4 (N);
+                  </sourceSTIL>
+               </SFCaction>
+            </SFCstep>
+            <SFCtrans dx="0" dy="7" ref="4" name="GT4" next="GS1">
+               <SFCnote ref="4" dx="0" dy="7">wait 1 second
+               </SFCnote>
+               <SFCcondition>
+                  <sourceSTIL>GS4.T &gt; t#1s;
+                  </sourceSTIL>
+               </SFCcondition>
+            </SFCtrans>
+            <SFCjump dx="0" dy="8" ref="1" target="GS1"/>
+         </sourceSFC>
+      </pou>
+   </programs>
+</K5project>

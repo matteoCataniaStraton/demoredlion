@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<K5project version="1.1">
+   <networks>
+   </networks>
+   <fieldbus>
+   <K5BusMailbox K5ID="1" __F="-1" MODE="1" LOGTRACE="0" ACCESS="0" NEXTID="2" DLLVERSION="2">
+   </K5BusMailbox>
+   </fieldbus>
+</K5project>

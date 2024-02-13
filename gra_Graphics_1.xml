@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<K5project version="1.1">
+   <graphics>
+      <graphic name="Graphics_1" backcolor="14737632">
+         <graitem dx="186" dy="49" sx="133" sy="211" kind="X5SHAPE">
+            <graprop name="SETUSERID" value="DEFAULT"/>
+            <graprop name="SETSKIN" value="CYLINDER"/>
+            <graprop name="ADDSYMBOL" value=""/>
+            <graprop name="SETSYMBOLSPYDELAY" value=""/>
+            <graprop name="SETBORDERSIZE" value="1"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value=""/>
+            <graprop name="SETDATAFORMAT" value="%d"/>
+            <graprop name="SETDATACOLOR" value="12632256"/>
+            <graprop name="SETBKCOLOR" value="16777215"/>
+            <graprop name="SETBKMODE" value="TRANS"/>
+            <graprop name="SETTEXT" value=""/>
+            <graprop name="SETTEXTCOLOR" value="14215660"/>
+            <graprop name="SETTEXTMODE" value="NORMAL"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="20"/>
+            <graprop name="SETTRUECOLOR" value="255"/>
+            <graprop name="SETFALSECOLOR" value="16711680"/>
+            <graprop name="SETDIRECTION" value="TOP"/>
+         </graitem>
+         <graitem dx="8" dy="80" sx="179" sy="4" kind="X5BARGRAPH">
+            <graprop name="SETUSERID" value="flow IN"/>
+            <graprop name="SETSKIN" value="Default"/>
+            <graprop name="ADDSYMBOL" value="valveIN"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="1"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value=""/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="8454016"/>
+            <graprop name="SETBKCOLOR" value="8421504"/>
+            <graprop name="SETBKMODE" value="OPAQUE"/>
+            <graprop name="SETTEXT" value=""/>
+            <graprop name="SETTEXTCOLOR" value="14215660"/>
+            <graprop name="SETTEXTMODE" value="NORMAL"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="8"/>
+            <graprop name="SETRANGEMIN" value="0.000000"/>
+            <graprop name="SETRANGEMAX" value="1.000000"/>
+            <graprop name="SETDIRECTION" value="RIGHT"/>
+         </graitem>
+         <graitem dx="319" dy="235" sx="100" sy="4" kind="X5BARGRAPH">
+            <graprop name="SETUSERID" value="flow out"/>
+            <graprop name="SETSKIN" value="Default"/>
+            <graprop name="ADDSYMBOL" value="valveOUT"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="1"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value=""/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="8454016"/>
+            <graprop name="SETBKCOLOR" value="8421504"/>
+            <graprop name="SETBKMODE" value="OPAQUE"/>
+            <graprop name="SETTEXT" value=""/>
+            <graprop name="SETTEXTCOLOR" value="14215660"/>
+            <graprop name="SETTEXTMODE" value="NORMAL"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="8"/>
+            <graprop name="SETRANGEMIN" value="0.000000"/>
+            <graprop name="SETRANGEMAX" value="1.000000"/>
+            <graprop name="SETDIRECTION" value="RIGHT"/>
+         </graitem>
+         <graitem dx="130" dy="52" sx="29" sy="38" kind="X5BUTTON">
+            <graprop name="SETUSERID" value="Valve IN"/>
+            <graprop name="SETSKIN" value="Custom"/>
+            <graprop name="ADDSYMBOL" value="Graphics_1_prog/valveIN"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="0"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value="FLAT"/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="8421504"/>
+            <graprop name="SETBKCOLOR" value="16777215"/>
+            <graprop name="SETBKMODE" value="TRANS"/>
+            <graprop name="SETTEXT" value=""/>
+            <graprop name="SETTEXTCOLOR" value="14215660"/>
+            <graprop name="SETTEXTMODE" value="NORMAL"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="8"/>
+            <graprop name="SETCTLTYPE" value="STATIC"/>
+            <graprop name="SETONBITMAP" value="Valve-Orange-29x38.bmp"/>
+            <graprop name="SETOFFBITMAP" value="Valve-Grey-29x38.bmp"/>
+            <graprop name="SETBITMAPMODE" value="ORIGINAL"/>
+         </graitem>
+         <graitem dx="346" dy="207" sx="29" sy="38" kind="X5BUTTON">
+            <graprop name="SETUSERID" value="Valve OUT"/>
+            <graprop name="SETSKIN" value="Custom"/>
+            <graprop name="ADDSYMBOL" value="Graphics_1_prog/valveOUT"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="0"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value="FLAT"/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="8421376"/>
+            <graprop name="SETBKCOLOR" value="16777215"/>
+            <graprop name="SETBKMODE" value="TRANS"/>
+            <graprop name="SETTEXT" value=""/>
+            <graprop name="SETTEXTCOLOR" value="14215660"/>
+            <graprop name="SETTEXTMODE" value="NORMAL"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="8"/>
+            <graprop name="SETCTLTYPE" value="STATIC"/>
+            <graprop name="SETONBITMAP" value="Valve-Orange-29x38.bmp"/>
+            <graprop name="SETOFFBITMAP" value="Valve-Grey-29x38.bmp"/>
+            <graprop name="SETBITMAPMODE" value="ORIGINAL"/>
+         </graitem>
+         <graitem dx="120" dy="27" sx="49" sy="20" kind="X5BUTTON">
+            <graprop name="SETUSERID" value="IN Command"/>
+            <graprop name="SETSKIN" value="DEFAULT"/>
+            <graprop name="ADDSYMBOL" value="Graphics_1_prog/valveIN"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="1"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value="3DUP"/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="32768"/>
+            <graprop name="SETBKCOLOR" value="32768"/>
+            <graprop name="SETBKMODE" value="OPAQUE"/>
+            <graprop name="SETTEXT" value="IN"/>
+            <graprop name="SETTEXTCOLOR" value="14215660"/>
+            <graprop name="SETTEXTMODE" value="NORMAL"/>
+            <graprop name="SETFONTNAME" value="Arial"/>
+            <graprop name="SETFONTSIZE" value="50"/>
+            <graprop name="SETCTLTYPE" value="SWITCH"/>
+            <graprop name="SETONBITMAP" value=""/>
+            <graprop name="SETOFFBITMAP" value=""/>
+            <graprop name="SETBITMAPMODE" value="ORIGINAL"/>
+         </graitem>
+         <graitem dx="338" dy="180" sx="49" sy="20" kind="X5BUTTON">
+            <graprop name="SETUSERID" value="OUT command"/>
+            <graprop name="SETSKIN" value="DEFAULT"/>
+            <graprop name="ADDSYMBOL" value="Graphics_1_prog/valveOUT"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="1"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value="3DUP"/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="32768"/>
+            <graprop name="SETBKCOLOR" value="32768"/>
+            <graprop name="SETBKMODE" value="OPAQUE"/>
+            <graprop name="SETTEXT" value="OUT"/>
+            <graprop name="SETTEXTCOLOR" value="14215660"/>
+            <graprop name="SETTEXTMODE" value="NORMAL"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="50"/>
+            <graprop name="SETCTLTYPE" value="SWITCH"/>
+            <graprop name="SETONBITMAP" value=""/>
+            <graprop name="SETOFFBITMAP" value=""/>
+            <graprop name="SETBITMAPMODE" value="ORIGINAL"/>
+         </graitem>
+         <graitem dx="243" dy="85" sx="27" sy="165" kind="X5BARGRAPH">
+            <graprop name="SETUSERID" value="bar graph"/>
+            <graprop name="SETSKIN" value="BEZEL"/>
+            <graprop name="ADDSYMBOL" value="Graphics_1_prog/iLevel"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="1"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value="3DUP"/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="8454016"/>
+            <graprop name="SETBKCOLOR" value="8421504"/>
+            <graprop name="SETBKMODE" value="OPAQUE"/>
+            <graprop name="SETTEXT" value=""/>
+            <graprop name="SETTEXTCOLOR" value="14215660"/>
+            <graprop name="SETTEXTMODE" value="NORMAL"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="8"/>
+            <graprop name="SETRANGEMIN" value="0.000000"/>
+            <graprop name="SETRANGEMAX" value="999.000000"/>
+            <graprop name="SETDIRECTION" value="TOP"/>
+            <graprop name="SETGAIN" value="1.000000"/>
+            <graprop name="SETOFFSET" value="0.000000"/>
+         </graitem>
+         <graitem dx="276" dy="85" sx="45" sy="165" kind="X5SCALE">
+            <graprop name="SETUSERID" value="Bar graph scale"/>
+            <graprop name="SETSKIN" value="Default"/>
+            <graprop name="ADDSYMBOL" value=""/>
+            <graprop name="SETSYMBOLSPYDELAY" value=""/>
+            <graprop name="SETBORDERSIZE" value="0"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value=""/>
+            <graprop name="SETDATAFORMAT" value="%d"/>
+            <graprop name="SETDATACOLOR" value="8388608"/>
+            <graprop name="SETBKCOLOR" value="16777215"/>
+            <graprop name="SETBKMODE" value="TRANS"/>
+            <graprop name="SETTEXT" value=""/>
+            <graprop name="SETTEXTCOLOR" value="14215660"/>
+            <graprop name="SETTEXTMODE" value="NORMAL"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="12"/>
+            <graprop name="SETRANGEMIN" value="0.000000"/>
+            <graprop name="SETRANGEMAX" value="1000.000000"/>
+            <graprop name="SETDIRECTION" value="RIGHT"/>
+            <graprop name="SETPLACEMENT" value="RIGHT"/>
+            <graprop name="SETNBDIV1" value="10"/>
+            <graprop name="SETNBDIV2" value="5"/>
+            <graprop name="SETSCALECOLOR" value="4210688"/>
+         </graitem>
+         <graitem dx="189" dy="193" sx="51" sy="47" kind="X5DIGITALMETER">
+            <graprop name="SETUSERID" value="Default"/>
+            <graprop name="SETSKIN" value="Default"/>
+            <graprop name="ADDSYMBOL" value="Graphics_1_prog/iLevel"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="1"/>
+            <graprop name="SETBORDERCOLOR" value="8421376"/>
+            <graprop name="SETBORDERMODE" value="3DDOWN"/>
+            <graprop name="SETDATAFORMAT" value="%g"/>
+            <graprop name="SETDATACOLOR" value="16711680"/>
+            <graprop name="SETBKCOLOR" value="16777215"/>
+            <graprop name="SETBKMODE" value="TRANS"/>
+            <graprop name="SETTEXT" value="level"/>
+            <graprop name="SETTEXTCOLOR" value="14215660"/>
+            <graprop name="SETTEXTMODE" value="NORMAL"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="16"/>
+            <graprop name="SETRANGEMIN" value="0.000000"/>
+            <graprop name="SETRANGEMAX" value="999.000000"/>
+            <graprop name="SETGAIN" value="1.000000"/>
+            <graprop name="SETOFFSET" value="0.000000"/>
+         </graitem>
+         <graitem dx="187" dy="80" sx="58" sy="68" kind="X5METER">
+            <graprop name="SETUSERID" value="Meter"/>
+            <graprop name="SETSKIN" value="DEFAULT"/>
+            <graprop name="ADDSYMBOL" value="Graphics_1_prog/iLevel"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="0"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value=""/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="10485760"/>
+            <graprop name="SETBKCOLOR" value="16777215"/>
+            <graprop name="SETBKMODE" value="TRANS"/>
+            <graprop name="SETTEXT" value=""/>
+            <graprop name="SETTEXTCOLOR" value="255"/>
+            <graprop name="SETTEXTMODE" value="NORMAL"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="8"/>
+            <graprop name="SETRANGEMIN" value="0.000000"/>
+            <graprop name="SETRANGEMAX" value="1000.000000"/>
+            <graprop name="SETSCALECOLOR" value="128"/>
+            <graprop name="SETNBDIV1" value="10"/>
+            <graprop name="SETNBDIV2" value="0"/>
+            <graprop name="SETGAIN" value="1.000000"/>
+            <graprop name="SETOFFSET" value="0.000000"/>
+         </graitem>
+         <graitem dx="18" dy="113" sx="159" sy="147" kind="X5METER">
+            <graprop name="SETUSERID" value="Meter"/>
+            <graprop name="SETSKIN" value="DEFAULT"/>
+            <graprop name="ADDSYMBOL" value="Graphics_1_prog/iLevel"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="2"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value="3DUP"/>
+            <graprop name="SETDATAFORMAT" value="%g"/>
+            <graprop name="SETDATACOLOR" value="8421504"/>
+            <graprop name="SETBKCOLOR" value="16777164"/>
+            <graprop name="SETBKMODE" value="OPAQUE"/>
+            <graprop name="SETTEXT" value=""/>
+            <graprop name="SETTEXTCOLOR" value="8388672"/>
+            <graprop name="SETTEXTMODE" value="BOLD"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="6"/>
+            <graprop name="SETRANGEMIN" value="0.000000"/>
+            <graprop name="SETRANGEMAX" value="1000.000000"/>
+            <graprop name="SETSCALECOLOR" value="16711680"/>
+            <graprop name="SETNBDIV1" value="5"/>
+            <graprop name="SETNBDIV2" value="5"/>
+            <graprop name="SETGAIN" value="1.000000"/>
+            <graprop name="SETOFFSET" value="0.000000"/>
+         </graitem>
+         <graitem dx="26" dy="234" sx="144" sy="19" kind="X5TEXTIN">
+            <graprop name="SETUSERID" value="Edit box"/>
+            <graprop name="SETSKIN" value="BEZEL"/>
+            <graprop name="ADDSYMBOL" value="iLevel"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="1"/>
+            <graprop name="SETBORDERCOLOR" value="16711680"/>
+            <graprop name="SETBORDERMODE" value="3DDOWN"/>
+            <graprop name="SETDATAFORMAT" value="iLevel = %d"/>
+            <graprop name="SETDATACOLOR" value="8421504"/>
+            <graprop name="SETBKCOLOR" value="12094977"/>
+            <graprop name="SETBKMODE" value="OPAQUE"/>
+            <graprop name="SETTEXT" value="iLevel = 548"/>
+            <graprop name="SETTEXTCOLOR" value="8454143"/>
+            <graprop name="SETTEXTMODE" value="NORMAL"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="50"/>
+            <graprop name="SETCTLTYPE" value="EDIT"/>
+         </graitem>
+         <graitem dx="323" dy="7" sx="119" sy="35" kind="X5TEXTIN">
+            <graprop name="SETUSERID" value="DEFAULT"/>
+            <graprop name="SETSKIN" value="DEFAULT"/>
+            <graprop name="ADDSYMBOL" value=""/>
+            <graprop name="SETSYMBOLSPYDELAY" value=""/>
+            <graprop name="SETBORDERSIZE" value="0"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value="FLAT"/>
+            <graprop name="SETDATAFORMAT" value="%s"/>
+            <graprop name="SETDATACOLOR" value="8421504"/>
+            <graprop name="SETBKCOLOR" value="16777215"/>
+            <graprop name="SETBKMODE" value="TRANS"/>
+            <graprop name="SETTEXT" value="Tank-1"/>
+            <graprop name="SETTEXTCOLOR" value="8388608"/>
+            <graprop name="SETTEXTMODE" value="ITALIC"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="80"/>
+            <graprop name="SETCTLTYPE" value="STATIC"/>
+         </graitem>
+         <gragdi name="BACKCOLOR" value="14737632"/>
+         <gragdi name="USEMARGIN" value="1"/>
+         <gragdi name="MARGWIDTH" value="16"/>
+         <gragdi name="MARGHEIGHT" value="16"/>
+         <gragdi name="SNAPGRID" value="1"/>
+         <gragdi name="MAXWIDTH" value="-1"/>
+         <gragdi name="MAXHEIGHT" value="-1"/>
+      </graphic>
+   </graphics>
+</K5project>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<K5project version="1.1">
+   <programs>
+      <pou name="Graphics_2_prog" kind="program" period="1" phase="0" lge="ST">
+         <vargroup name="Graphics_2_prog" kind="LOCAL">
+            <var name="Light" type="StrLight" dim="5">
+         <varinfo type="desc" data="the 5 lights"/>
+            </var>
+            <var name="bReset" type="BOOL">
+         <varinfo type="desc" data="RESET action"/>
+            </var>
+            <var name="i" type="DINT"/>
+            <var name="bWin" type="BOOL">
+         <varinfo type="desc" data="TRUE when you win!"/>
+            </var>
+         </vargroup>
+<defines name="Graphics_2_prog"></defines>
+         <sourceSTIL>// reset command
+if bReset then
+    // turn everything off
+    for i := 0 to 4 do
+        Light[i].bON := FALSE;
+    end_for;
+    // and turn WIN flag off
+    bWin := FALSE;
+    // ignore the rest...
+    return;
+end_if;
+
+// operate commands - for each position
+for i := 0 to 4 do
+    // if command and not yet lightened
+    if Light[i].bCmd &amp; not Light[i].bON then
+        // light
+        Light[i].bON := TRUE;
+        // toggle two positions in front
+        Light[mod (i+2, 5)].bON := not Light[mod (i+2, 5)].bON;
+        Light[mod (i+3, 5)].bON := not Light[mod (i+3, 5)].bON;
+    end_if;
+end_for;
+
+// win if everything is ON
+bWin := Light[0].bON &amp; Light[1].bON &amp; Light[2].bON
+        &amp; Light[3].bON &amp; Light[4].bON;
+         </sourceSTIL>
+      </pou>
+   </programs>
+</K5project>

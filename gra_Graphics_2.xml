@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<K5project version="1.1">
+   <graphics>
+      <graphic name="Graphics_2" backcolor="16777215">
+         <graitem dx="163" dy="148" sx="64" sy="64" kind="X5SHAPE">
+            <graprop name="SETUSERID" value="Ellipse"/>
+            <graprop name="SETSKIN" value="ELLIPSE"/>
+            <graprop name="ADDSYMBOL" value="Graphics_2_prog/Light[0].bON"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="1"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value="FLAT"/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="8421504"/>
+            <graprop name="SETBKCOLOR" value="16777215"/>
+            <graprop name="SETBKMODE" value="TRANS"/>
+            <graprop name="SETTEXT" value=""/>
+            <graprop name="SETTEXTCOLOR" value="14215660"/>
+            <graprop name="SETTEXTMODE" value="NORMAL"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="20"/>
+            <graprop name="SETCTLTYPE" value="STATIC"/>
+            <graprop name="SETTRUECOLOR" value="255"/>
+            <graprop name="SETFALSECOLOR" value="64"/>
+            <graprop name="SETDIRECTION" value="TOP"/>
+         </graitem>
+         <graitem dx="174" dy="105" sx="43" sy="26" kind="X5BUTTON">
+            <graprop name="SETUSERID" value="Push button"/>
+            <graprop name="SETSKIN" value="DEFAULT"/>
+            <graprop name="ADDSYMBOL" value="Graphics_2_prog/Light[0].bCmd"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="2"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value="FLAT"/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="8421504"/>
+            <graprop name="SETBKCOLOR" value="12632256"/>
+            <graprop name="SETBKMODE" value="OPAQUE"/>
+            <graprop name="SETTEXT" value="0"/>
+            <graprop name="SETTEXTCOLOR" value="0"/>
+            <graprop name="SETTEXTMODE" value="BOLD"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="30"/>
+            <graprop name="SETCTLTYPE" value="PUSHBUTTON"/>
+            <graprop name="SETONBITMAP" value=""/>
+            <graprop name="SETOFFBITMAP" value=""/>
+            <graprop name="SETBITMAPMODE" value="ORIGINAL"/>
+         </graitem>
+         <graitem dx="297" dy="188" sx="43" sy="26" kind="X5BUTTON">
+            <graprop name="SETUSERID" value="Push button"/>
+            <graprop name="SETSKIN" value="DEFAULT"/>
+            <graprop name="ADDSYMBOL" value="Graphics_2_prog/Light[1].bCmd"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="2"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value="FLAT"/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="8421504"/>
+            <graprop name="SETBKCOLOR" value="12632256"/>
+            <graprop name="SETBKMODE" value="OPAQUE"/>
+            <graprop name="SETTEXT" value="1"/>
+            <graprop name="SETTEXTCOLOR" value="0"/>
+            <graprop name="SETTEXTMODE" value="BOLD"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="30"/>
+            <graprop name="SETCTLTYPE" value="PUSHBUTTON"/>
+            <graprop name="SETONBITMAP" value=""/>
+            <graprop name="SETOFFBITMAP" value=""/>
+            <graprop name="SETBITMAPMODE" value="ORIGINAL"/>
+         </graitem>
+         <graitem dx="286" dy="231" sx="64" sy="64" kind="X5SHAPE">
+            <graprop name="SETUSERID" value="Ellipse"/>
+            <graprop name="SETSKIN" value="ELLIPSE"/>
+            <graprop name="ADDSYMBOL" value="Graphics_2_prog/Light[1].bON"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="1"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value="FLAT"/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="8421504"/>
+            <graprop name="SETBKCOLOR" value="16777215"/>
+            <graprop name="SETBKMODE" value="TRANS"/>
+            <graprop name="SETTEXT" value=""/>
+            <graprop name="SETTEXTCOLOR" value="14215660"/>
+            <graprop name="SETTEXTMODE" value="NORMAL"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="20"/>
+            <graprop name="SETCTLTYPE" value="STATIC"/>
+            <graprop name="SETTRUECOLOR" value="255"/>
+            <graprop name="SETFALSECOLOR" value="64"/>
+            <graprop name="SETDIRECTION" value="TOP"/>
+         </graitem>
+         <graitem dx="245" dy="309" sx="43" sy="26" kind="X5BUTTON">
+            <graprop name="SETUSERID" value="Push button"/>
+            <graprop name="SETSKIN" value="DEFAULT"/>
+            <graprop name="ADDSYMBOL" value="Graphics_2_prog/Light[2].bCmd"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="2"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value="FLAT"/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="8421504"/>
+            <graprop name="SETBKCOLOR" value="12632256"/>
+            <graprop name="SETBKMODE" value="OPAQUE"/>
+            <graprop name="SETTEXT" value="2"/>
+            <graprop name="SETTEXTCOLOR" value="0"/>
+            <graprop name="SETTEXTMODE" value="BOLD"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="30"/>
+            <graprop name="SETCTLTYPE" value="PUSHBUTTON"/>
+            <graprop name="SETONBITMAP" value=""/>
+            <graprop name="SETOFFBITMAP" value=""/>
+            <graprop name="SETBITMAPMODE" value="ORIGINAL"/>
+         </graitem>
+         <graitem dx="234" dy="352" sx="64" sy="64" kind="X5SHAPE">
+            <graprop name="SETUSERID" value="Ellipse"/>
+            <graprop name="SETSKIN" value="ELLIPSE"/>
+            <graprop name="ADDSYMBOL" value="Graphics_2_prog/Light[2].bON"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="1"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value="FLAT"/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="8421504"/>
+            <graprop name="SETBKCOLOR" value="16777215"/>
+            <graprop name="SETBKMODE" value="TRANS"/>
+            <graprop name="SETTEXT" value=""/>
+            <graprop name="SETTEXTCOLOR" value="14215660"/>
+            <graprop name="SETTEXTMODE" value="NORMAL"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="20"/>
+            <graprop name="SETCTLTYPE" value="STATIC"/>
+            <graprop name="SETTRUECOLOR" value="255"/>
+            <graprop name="SETFALSECOLOR" value="64"/>
+            <graprop name="SETDIRECTION" value="TOP"/>
+         </graitem>
+         <graitem dx="123" dy="309" sx="43" sy="26" kind="X5BUTTON">
+            <graprop name="SETUSERID" value="Push button"/>
+            <graprop name="SETSKIN" value="DEFAULT"/>
+            <graprop name="ADDSYMBOL" value="Graphics_2_prog/Light[3].bCmd"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="2"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value="FLAT"/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="8421504"/>
+            <graprop name="SETBKCOLOR" value="12632256"/>
+            <graprop name="SETBKMODE" value="OPAQUE"/>
+            <graprop name="SETTEXT" value="3"/>
+            <graprop name="SETTEXTCOLOR" value="0"/>
+            <graprop name="SETTEXTMODE" value="BOLD"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="30"/>
+            <graprop name="SETCTLTYPE" value="PUSHBUTTON"/>
+            <graprop name="SETONBITMAP" value=""/>
+            <graprop name="SETOFFBITMAP" value=""/>
+            <graprop name="SETBITMAPMODE" value="ORIGINAL"/>
+         </graitem>
+         <graitem dx="112" dy="352" sx="64" sy="64" kind="X5SHAPE">
+            <graprop name="SETUSERID" value="Ellipse"/>
+            <graprop name="SETSKIN" value="ELLIPSE"/>
+            <graprop name="ADDSYMBOL" value="Graphics_2_prog/Light[3].bON"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="1"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value="FLAT"/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="8421504"/>
+            <graprop name="SETBKCOLOR" value="16777215"/>
+            <graprop name="SETBKMODE" value="TRANS"/>
+            <graprop name="SETTEXT" value=""/>
+            <graprop name="SETTEXTCOLOR" value="14215660"/>
+            <graprop name="SETTEXTMODE" value="NORMAL"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="20"/>
+            <graprop name="SETCTLTYPE" value="STATIC"/>
+            <graprop name="SETTRUECOLOR" value="255"/>
+            <graprop name="SETFALSECOLOR" value="64"/>
+            <graprop name="SETDIRECTION" value="TOP"/>
+         </graitem>
+         <graitem dx="61" dy="188" sx="43" sy="26" kind="X5BUTTON">
+            <graprop name="SETUSERID" value="Push button"/>
+            <graprop name="SETSKIN" value="DEFAULT"/>
+            <graprop name="ADDSYMBOL" value="Graphics_2_prog/Light[4].bCmd"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="2"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value="FLAT"/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="8421504"/>
+            <graprop name="SETBKCOLOR" value="12632256"/>
+            <graprop name="SETBKMODE" value="OPAQUE"/>
+            <graprop name="SETTEXT" value="4"/>
+            <graprop name="SETTEXTCOLOR" value="0"/>
+            <graprop name="SETTEXTMODE" value="BOLD"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="30"/>
+            <graprop name="SETCTLTYPE" value="PUSHBUTTON"/>
+            <graprop name="SETONBITMAP" value=""/>
+            <graprop name="SETOFFBITMAP" value=""/>
+            <graprop name="SETBITMAPMODE" value="ORIGINAL"/>
+         </graitem>
+         <graitem dx="50" dy="231" sx="64" sy="64" kind="X5SHAPE">
+            <graprop name="SETUSERID" value="Ellipse"/>
+            <graprop name="SETSKIN" value="ELLIPSE"/>
+            <graprop name="ADDSYMBOL" value="Graphics_2_prog/Light[4].bON"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="1"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value="FLAT"/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="8421504"/>
+            <graprop name="SETBKCOLOR" value="16777215"/>
+            <graprop name="SETBKMODE" value="TRANS"/>
+            <graprop name="SETTEXT" value=""/>
+            <graprop name="SETTEXTCOLOR" value="14215660"/>
+            <graprop name="SETTEXTMODE" value="NORMAL"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="20"/>
+            <graprop name="SETCTLTYPE" value="STATIC"/>
+            <graprop name="SETTRUECOLOR" value="255"/>
+            <graprop name="SETFALSECOLOR" value="64"/>
+            <graprop name="SETDIRECTION" value="TOP"/>
+         </graitem>
+         <graitem dx="162" dy="249" sx="72" sy="36" kind="X5SHAPE">
+            <graprop name="SETUSERID" value="Rectangle"/>
+            <graprop name="SETSKIN" value="RECT"/>
+            <graprop name="ADDSYMBOL" value="Graphics_2_prog/bWin"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="0"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value="FLAT"/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="8421504"/>
+            <graprop name="SETBKCOLOR" value="16777215"/>
+            <graprop name="SETBKMODE" value="TRANS"/>
+            <graprop name="SETTEXT" value="WIN !"/>
+            <graprop name="SETTEXTCOLOR" value="16777215"/>
+            <graprop name="SETTEXTMODE" value="BOLD"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="40"/>
+            <graprop name="SETCTLTYPE" value="STATIC"/>
+            <graprop name="SETTRUECOLOR" value="65280"/>
+            <graprop name="SETFALSECOLOR" value="16777215"/>
+            <graprop name="SETDIRECTION" value="TOP"/>
+         </graitem>
+         <graitem dx="7" dy="77" sx="80" sy="30" kind="X5BUTTON">
+            <graprop name="SETUSERID" value="Push button"/>
+            <graprop name="SETSKIN" value="DEFAULT"/>
+            <graprop name="ADDSYMBOL" value="Graphics_2_prog/bReset"/>
+            <graprop name="SETSYMBOLSPYDELAY" value="0"/>
+            <graprop name="SETBORDERSIZE" value="2"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value="FLAT"/>
+            <graprop name="SETDATAFORMAT" value=""/>
+            <graprop name="SETDATACOLOR" value="8421504"/>
+            <graprop name="SETBKCOLOR" value="12632256"/>
+            <graprop name="SETBKMODE" value="OPAQUE"/>
+            <graprop name="SETTEXT" value="Restart"/>
+            <graprop name="SETTEXTCOLOR" value="0"/>
+            <graprop name="SETTEXTMODE" value="BOLD"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="30"/>
+            <graprop name="SETCTLTYPE" value="PUSHBUTTON"/>
+            <graprop name="SETONBITMAP" value=""/>
+            <graprop name="SETOFFBITMAP" value=""/>
+            <graprop name="SETBITMAPMODE" value="ORIGINAL"/>
+         </graitem>
+         <graitem dx="8" dy="9" sx="366" sy="16" kind="X5TEXTIN">
+            <graprop name="SETUSERID" value="DEFAULT"/>
+            <graprop name="ADDSYMBOL" value=""/>
+            <graprop name="SETSYMBOLSPYDELAY" value=""/>
+            <graprop name="SETBORDERSIZE" value="0"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value=""/>
+            <graprop name="SETDATAFORMAT" value="%s"/>
+            <graprop name="SETBKCOLOR" value="16777215"/>
+            <graprop name="SETBKMODE" value="TRANS"/>
+            <graprop name="SETTEXT" value="Press a button to turn the corresponding light on"/>
+            <graprop name="SETTEXTCOLOR" value="8404992"/>
+            <graprop name="SETTEXTMODE" value="BOLD"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="60"/>
+            <graprop name="SETCTLTYPE" value="STATIC"/>
+         </graitem>
+         <graitem dx="8" dy="29" sx="366" sy="16" kind="X5TEXTIN">
+            <graprop name="SETUSERID" value="DEFAULT"/>
+            <graprop name="ADDSYMBOL" value=""/>
+            <graprop name="SETSYMBOLSPYDELAY" value=""/>
+            <graprop name="SETBORDERSIZE" value="0"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value=""/>
+            <graprop name="SETDATAFORMAT" value="%s"/>
+            <graprop name="SETBKCOLOR" value="16777215"/>
+            <graprop name="SETBKMODE" value="TRANS"/>
+            <graprop name="SETTEXT" value="The two lights in front of the selected one are then toggled"/>
+            <graprop name="SETTEXTCOLOR" value="8404992"/>
+            <graprop name="SETTEXTMODE" value="BOLD"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="60"/>
+            <graprop name="SETCTLTYPE" value="STATIC"/>
+         </graitem>
+         <graitem dx="8" dy="47" sx="366" sy="16" kind="X5TEXTIN">
+            <graprop name="SETUSERID" value="DEFAULT"/>
+            <graprop name="ADDSYMBOL" value=""/>
+            <graprop name="SETSYMBOLSPYDELAY" value=""/>
+            <graprop name="SETBORDERSIZE" value="0"/>
+            <graprop name="SETBORDERCOLOR" value="8421504"/>
+            <graprop name="SETBORDERMODE" value=""/>
+            <graprop name="SETDATAFORMAT" value="%s"/>
+            <graprop name="SETBKCOLOR" value="16777215"/>
+            <graprop name="SETBKMODE" value="TRANS"/>
+            <graprop name="SETTEXT" value="You win when every lights are on"/>
+            <graprop name="SETTEXTCOLOR" value="8404992"/>
+            <graprop name="SETTEXTMODE" value="BOLD"/>
+            <graprop name="SETFONTNAME" value="ARIAL"/>
+            <graprop name="SETFONTSIZE" value="60"/>
+            <graprop name="SETCTLTYPE" value="STATIC"/>
+         </graitem>
+         <gragdi name="BACKCOLOR" value="16777215"/>
+         <gragdi name="USEMARGIN" value="1"/>
+         <gragdi name="MARGWIDTH" value="16"/>
+         <gragdi name="MARGHEIGHT" value="16"/>
+         <gragdi name="SNAPGRID" value="1"/>
+         <gragdi name="MAXWIDTH" value="-1"/>
+         <gragdi name="MAXHEIGHT" value="-1"/>
+      </graphic>
+   </graphics>
+</K5project>

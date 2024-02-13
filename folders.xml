@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<Appli>
+   <Folder Name="FBD">
+      <Program Name="FBD_1"/>
+   </Folder>
+   <Folder Name="Graphics">
+      <Folder Name="Graph_1">
+         <Program Name="Graphics_1_prog"/>
+         <File Name="Graphics_1.gra"/>
+      </Folder>
+      <Folder Name="Graph_2">
+         <Program Name="Graphics_2_prog"/>
+         <File Name="Graphics_2.gra"/>
+      </Folder>
+   </Folder>
+   <Folder Name="Ladder">
+      <Program Name="Ladder_1"/>
+      <File Name="NewSpy.spl"/>
+   </Folder>
+   <Folder Name="SFC">
+      <Program Name="SFC_1">
+         <Program Name="SFC_1_child"/>
+      </Program>
+      <Program Name="sub1"/>
+      <Program Name="UDFB1"/>
+   </Folder>
+   <Folder Name="ST">
+      <Program Name="ST_1"/>
+   </Folder>
+   <Vars/>
+   <Types/>
+</Appli>

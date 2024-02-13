@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<K5project version="1.1">
+   <programs>
+      <pou name="ST_1" kind="program" period="1" phase="0" lge="ST">
+         <vargroup name="ST_1" kind="LOCAL">
+            <var name="Counter" type="CTU">
+         <varinfo type="tag" data="Count"/>
+         <varinfo type="desc" data="Main growing counter"/>
+            </var>
+            <var name="Blinker" type="blink">
+         <varinfo type="desc" data="Generates blinking signal"/>
+            </var>
+            <var name="Trigger" type="F_TRIG"/>
+            <var name="bCommand" type="BOOL" init="TRUE">
+         <varinfo type="desc" data="Main activation command"/>
+            </var>
+            <var name="iValue" type="DINT">
+         <varinfo type="desc" data="Main interger result"/>
+            </var>
+            <var name="bSig" type="BOOL"/>
+            <var name="q0" type="BOOL"/>
+            <var name="q1" type="BOOL"/>
+            <var name="q2" type="BOOL"/>
+            <var name="q3" type="BOOL"/>
+            <var name="q4" type="BOOL"/>
+            <var name="q5" type="BOOL"/>
+            <var name="q6" type="BOOL"/>
+            <var name="q7" type="BOOL"/>
+         </vargroup>
+<defines name="ST_1"></defines>
+         <sourceSTIL>#define ThePeriod t#1s
+
+Blinker (TRUE, ThePeriod);
+Trigger (Blinker.Q);
+
+bSig := Trigger.Q;
+
+Counter (
+    bSig,            (* blinking input *)
+    not bCommand,    (* reset the counter if command *)
+    255
+    );
+iValue := Counter.CV;
+
+q0 := ANY_TO_BOOL (AND_MASK (iValue, 16#01));
+q1 := ANY_TO_BOOL (AND_MASK (iValue, 16#02));
+q2 := ANY_TO_BOOL (AND_MASK (iValue, 16#04));
+q3 := ANY_TO_BOOL (AND_MASK (iValue, 16#08));
+q4 := ANY_TO_BOOL (AND_MASK (iValue, 16#10));
+q5 := ANY_TO_BOOL (AND_MASK (iValue, 16#20));
+q6 := ANY_TO_BOOL (AND_MASK (iValue, 16#40));
+q7 := ANY_TO_BOOL (AND_MASK (iValue, 16#80));
+
+
+         </sourceSTIL>
+      </pou>
+   </programs>
+</K5project>
